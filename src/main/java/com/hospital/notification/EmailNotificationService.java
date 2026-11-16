@@ -10,6 +10,6 @@ public class EmailNotificationService implements NotificationService {
     @Override
     public void sendNotification(String patientId, String message) {
         System.out.println("Sending EMAIL to patient: " + patientId);
-        System.out.println("Message: " + message);
+        System.out.println(patientId+"you've received a message: " + message);
     }
 }
